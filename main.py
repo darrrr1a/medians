@@ -1,7 +1,6 @@
 def medians(nums1, nums2):
     nums = nums1 + nums2
     sorted_nums = sorted(nums)
-    print(sorted_nums)
     nums_length = len(sorted_nums)
     middle_index = (nums_length - 1) // 2
 
